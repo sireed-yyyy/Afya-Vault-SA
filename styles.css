@@ -1,0 +1,15 @@
+:root{
+  --primary:#0d6efd;
+  --accent:#0dcaf0;
+  --bg:#f4fbff;
+  --muted:#6c757d;
+}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:#111}
+.navbar-brand{font-weight:700;color:var(--primary)}
+.card{border-radius:12px}
+.container-small{max-width:980px;margin:0 auto}
+.header-hero{background:linear-gradient(90deg, rgba(13,110,253,0.08), rgba(13,202,240,0.04));padding:36px;border-radius:12px}
+.btn-primary{background:var(--primary);border-color:var(--primary)}
+.record-signed{background:#e9f7ef;border-left:4px solid #28a745;padding:8px;border-radius:6px}
+.badge-signed{background:#28a745;color:white;padding:4px 8px;border-radius:999px;font-size:12px}
+.small-muted{color:var(--muted);font-size:13px}
